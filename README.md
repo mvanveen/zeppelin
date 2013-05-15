@@ -26,4 +26,4 @@ Freeze current dependencies:
 
 Install package `foo`:
 
-    $ zeppelin install  foo
+    $ zeppelin install foo
