@@ -1,7 +1,7 @@
 zeppelin
 ========
 
-An App Engine command-line tool for Humans.
+App Engine CLI tooling for Humans.
 
 ![](http://www.wallpowper.com/wallpaper/2012/11/16/led-zeppelin-bands-free-music.jpg)
 
