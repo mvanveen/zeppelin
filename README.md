@@ -18,15 +18,14 @@ dependencies, and will warn you of non-Pure Python libraries.
 
 ### Shell
 
+```bash
+$ zeppelin shell
+```
+
 `zeppelin`'s shell is a full IPython runtime with batteries included.  It connects to any
 locally running `dev_appserver.py` instance by default, and can alternatively connect
 to remote instances.
 
-** Connect to local instance
-
-```bash
-    $ zeppelin shell
-```
 
 ### Tests
 
