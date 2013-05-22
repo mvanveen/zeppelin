@@ -9,6 +9,10 @@ A Google App Engine command-line tool for Humans.
 
 ### Deployment
 
+### Features
+
+- `requirements.txt` dependency management compatibility
+
 ```bash
 $ zeppelin deploy .
 ```
