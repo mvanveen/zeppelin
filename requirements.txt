@@ -1,2 +1,1 @@
-IPython
-clint==0.3.1
+ipython==0.13.2
