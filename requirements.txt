@@ -1,1 +1,1 @@
-manage.py==0.1b3
+clint==0.3.1

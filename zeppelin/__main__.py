@@ -1,19 +1,10 @@
-from manage import Manager
+import sys
 
-manager = Manager()
+def main():
+  args = sys.argv[1:]
 
+  mod = __import__(args[0])
+  mod.main(*args[0])
 
-@manager.command
-def deploy():
-  """Enter an AppeNgine Python shell"""
-  return 'this is where the deploy command goes!'
-
-@manager.command
-def shell():
-  """Enter an AppeNgine Python shell"""
-  return 'this is where the shell command goes!'
-
-#TODO: think about install/freeze/build CLI interface.
-#      what is the best verb to pick?
-
-manager.main()
+if __name__ == '__main__':
+  main()
