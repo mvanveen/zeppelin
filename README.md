@@ -43,8 +43,9 @@ test runner.
 `zeppelin init` sets up common preliminaries needed to get an App Engine 
 environment working using `virtualenv`.
 
-
 ## Examples
+
+TODO: fancy gif animations?
 
 ### Deployment
 
