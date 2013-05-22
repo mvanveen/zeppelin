@@ -7,8 +7,8 @@ An App Engine command-line tool for Humans.
 
 ## Introduction
 
-From environment setup, to deployment and testing/debugging, `zeppelin` is a tool designed to make the
-whole lifecycle of App Engine development more friendly.
+From environment setup to deployment and all the way through to testing/debugging, `zeppelin` is a 
+tool designed to make the whole lifecycle of App Engine development more friendly.
 
 We've packed `zeppelin` with hydrogen.  This tool brings App Engine package management in-line with 
 the rest of the Python community's best practices by providing compatibility with `pip`'s 
