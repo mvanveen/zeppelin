@@ -33,6 +33,11 @@ With `zeppelin` your dependency management is on the stairway to heaven.
 included.  It connects to any locally running `dev_appserver.py` instance by default, 
 and can alternatively connect to remote instances.
 
+### Easy Breezy Unit Tests.
+
+Your project's unit test results are just a `zeppelin test` away.  We use `nose` as our default
+test runner.
+
 ## Examples
 
 ### Deployment
