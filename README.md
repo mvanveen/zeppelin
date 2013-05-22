@@ -9,9 +9,15 @@ A Google App Engine command-line tool for Humans.
 
 ### Deployment
 
-    $ zeppelin deploy
+*Deploy the current working directory:*
+
+```bash
+    $ zeppelin deploy .
+```
 
 ### Shell
+
+*Bring up a shell*
 
     $ zeppelin shell
 
