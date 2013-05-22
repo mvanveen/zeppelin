@@ -38,6 +38,12 @@ and can alternatively connect to remote instances.
 Your project's unit test results are just a `zeppelin test` away.  We use `nose` as our default
 test runner.
 
+### Environment Setup
+
+`zeppelin init` sets up common preliminaries needed to get an App Engine 
+environment working using `virtualenv`.
+
+
 ## Examples
 
 ### Deployment
