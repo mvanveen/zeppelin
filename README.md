@@ -9,6 +9,9 @@ A Google App Engine command-line tool for Humans.
 
 ### Deployment
 
+Zeppelin makes deployments a breeze.  It automatically installs your `requirements.txt` 
+dependencies, and will warn you of non-Pure Python libraries.
+
 *Deploy the current working directory:*
 
 ```bash
@@ -17,21 +20,18 @@ A Google App Engine command-line tool for Humans.
 
 ### Shell
 
-*Bring up a shell*
+zeppelin's shell is a full IPython runtime with batteries included.  It connects to any
+locally running `dev_appserver.py` instance by default, and can alternatively connect
+to remote instances.
 
+** Connect to local instance
+
+```bash
     $ zeppelin shell
+```
 
+### Tests
 
-### pip requirements
-
-Install from `requirements.txt`:
-
-    $ zeppelin install -r requirements.txt
-
-Freeze current dependencies:
-
-    $ zeppelin freeze
-
-Install package `foo`:
-
-    $ zeppelin install foo
+```bash
+$ zeppelin test .
+````
