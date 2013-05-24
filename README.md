@@ -19,7 +19,7 @@ community's best practices by providing compatibility with `pip`'s `requirements
 depdendancy declaration format.
 
 During deployment it bundles your `requirements.txt`dependencies with your app directory 
-and automatically you of non-Pure Python libraries.
+and automatically warns you of non-Pure Python libraries.
 
 
 Kill your `deps` directory.  Say goodbye to `sys.path` hacks! Prove to your heroku hipster
